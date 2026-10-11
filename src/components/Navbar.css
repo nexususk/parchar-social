@@ -1,0 +1,44 @@
+.instagram-nav {
+  position: fixed;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  width: min(92vw, 440px);
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(255, 255, 255, 0.733);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 22px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+
+.nav-item {
+  background: transparent;
+  border: none;
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  color: #262626;
+  cursor: pointer;
+  border-radius: 16px;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.nav-item:hover {
+  transform: translateY(-1px);
+}
+
+.nav-item.active {
+  color: #000;
+  font-weight: 700;
+}
+
+.nav-item svg {
+  stroke-width: 2.1;
+}
