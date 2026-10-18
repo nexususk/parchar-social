@@ -1,27 +1,39 @@
 import './Navbar.css';
-import { Home, Search, PlusSquare, User, MapPinned } from 'lucide-react';
+import { Home, Search, Plus, User, MapPinned } from 'lucide-react';
 
 const items = [
   { icon: Home, label: 'Inicio', active: true },
+  { icon: MapPinned, label: 'Mapa' },
   { icon: Search, label: 'Buscar' },
-  { icon: PlusSquare, label: 'Crear' },
-  { icon: MapPinned, label: 'Notificaciones' },
   { icon: User, label: 'Perfil' },
 ];
 
 function Navbar() {
   return (
-    <nav className="instagram-nav" aria-label="Navegación principal">
-      {items.map(({ icon: Icon, label, active }) => (
-        <button
-          key={label}
-          className={`nav-item ${active ? 'active' : ''}`}
-          type="button"
-          aria-label={label}
-        >
-          <Icon size={24} />
-        </button>
-      ))}
+    <nav className="bottom-navbar" aria-label="Navegación principal">
+      <div className="brand" aria-label="Marca">
+        <div className="brand-mark">P</div>
+        <span className="brand-name">Parchar <span>Social</span></span>
+      </div>
+
+      <div className="nav-items">
+        {items.map(({ icon: Icon, label, active }) => (
+          <button
+            key={label}
+            className={`nav-item ${active ? 'active' : ''}`}
+            type="button"
+            aria-label={label}
+          >
+            <Icon size={24} />
+            <span>{label}</span>
+          </button>
+        ))}
+      </div>
+
+      <button className="new-post-btn" type="button">
+        <Plus size={18} />
+        Nuevo post
+      </button>
     </nav>
   );
 }
