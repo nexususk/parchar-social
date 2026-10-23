@@ -13,7 +13,7 @@ function Navbar() {
     <nav className="bottom-navbar" aria-label="Navegación principal">
       <div className="brand" aria-label="Marca">
         <div className="brand-mark">P</div>
-        <span className="brand-name">Parchar <span>Social</span></span>
+        <span className="brand-name">Parchar <span className="brand-name-highlight">Social</span></span>
       </div>
 
       <div className="nav-items">

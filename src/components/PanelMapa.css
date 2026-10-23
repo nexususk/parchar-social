@@ -1,0 +1,24 @@
+.panel-mapa {
+  background: #ffffff;
+  border-radius: 28px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(135, 47, 214, 0.08);
+  font-family: 'Manrope', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.panel-mapa h2 {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.15;
+  color: #0e0013;
+}
+
+.panel-mapa p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #6b6b6b;
+}

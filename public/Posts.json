@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "user": "Saris Vélez",
+    "username": "@sarisss_",
+    "userProfilePicture": "",
+    "place": "La Pascasia",
+    "zone": "Centro, Medellín",
+    "description": "Anoche terminamos en La Pascasia sin planearlo y fue el mejor giro de la noche. Banda en vivo, patio lleno de gente querida y una pizza que salvó la madrugada. Vayan temprano si quieren mesa; después de las 8 todo se convierte en baile.",
+    "images": [
+      "images/1_1.webp",
+      "images/1_2.webp",
+      "images/1_3.webp"
+    ],
+    "score": 4.9,
+    "tags": ["Amigos", "Músicaenvivo"],
+    "likes": 284,
+    "comments": 31,
+    "date": "2026-10-22T11:30:00"
+  },
+  {
+    "id": 2,
+    "user": "Lucas Cárdenas.",
+    "username": "@evilminion2004",
+    "userProfilePicture": "/images/evilminion2004.PNG",
+    "place": "Parque Lleras",
+    "zone": "El Poblado, Medellín",
+    "description": "demasiada rumba, demasiado ruido. muy sobrevalorado la vdd, pero la pasamos bien con los amigos. si van, tengan cuidado con sus cosas y con lo que reciben.",
+    "images": [
+      "/images/2_1.jpg"
+    ],
+    "score": 2,
+    "tags": ["Fiesta", "Noche"],
+    "likes": 97,
+    "comments": 8,
+    "date": "2026-10-20T16:00:00"
+  }
+]

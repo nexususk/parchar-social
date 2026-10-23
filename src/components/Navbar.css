@@ -37,8 +37,17 @@
 .brand-name {
   font-size: 1.05rem;
   font-weight: 800;
-  color: #7a2fc9;
+  color: #1d1d1d;
   letter-spacing: -0.02em;
+  font-family: "DM Sans", sans-serif;
+}
+
+.brand-name-highlight {
+  color: #7a2fc9 !important;
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-family: "DM Sans", sans-serif;
 }
 
 .brand-name span {
