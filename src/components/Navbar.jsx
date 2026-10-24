@@ -8,7 +8,7 @@ const items = [
   { icon: User, label: 'Perfil' },
 ];
 
-function Navbar() {
+function Navbar({ onOpenForm }) {
   return (
     <nav className="bottom-navbar" aria-label="Navegación principal">
       <div className="brand" aria-label="Marca">
@@ -30,12 +30,11 @@ function Navbar() {
         ))}
       </div>
 
-      <button className="new-post-btn" type="button">
+      <button className="new-post-btn" type="button" onClick={onOpenForm}>
         <Plus size={18} />
         Nuevo post
       </button>
     </nav>
   );
 }
-
 export default Navbar;
